@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiosa  Personal Website</title>
+    <!-- FIXED BOOTSTRAP 5 CSS LINK -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar using Flexbox -->
+    <nav class="custom-nav">
+        <div class="logo">ADIOSA</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section using Flexbox -->
+    <section id="home" class="hero-section">
+        <h1>Welcome to Adiosa Tech world </h1>
+        <p>We build modern digital experiences.</p>
+        <button class="btn btn-primary" id="cta-btn">Get Started</button>
+    </section>
+
+    <!-- Portfolio Section using Modern Centered Dribbble Grid -->
+    <section id="portfolio" class="container my-5 py-4">
+        <h2 class="text-center mb-2 fw-bold">Our Projects</h2>
+        <p class="text-center text-muted mb-5">Explore premium projects engineered line-by-line.</p>
+        
+        <!-- Premium Centered Dribbble Grid -->
+        <div class="dribbble-grid">
+            
+            <!-- Shot Card 1 -->
+            <div class="dribbble-card">
+                <div class="dribbble-img-box">
+                    <img src="static/image/web.jpg" alt="Web Design">
+                </div>
+                <div class="dribbble-info">
+                    <h5 class="dribbble-title">Web Design</h5>
+                    <span class="dribbble-tag">Web</span>
+                </div>
+            </div>
+
+            <!-- Shot Card 2 -->
+            <div class="dribbble-card">
+                <div class="dribbble-img-box">
+                    <img src="static/image/ecom.jpg" alt="E-commerce">
+                </div>
+                <div class="dribbble-info">
+                    <h5 class="dribbble-title">E-commerce</h5>
+                    <span class="dribbble-tag">Shop</span>
+                </div>
+            </div>
+
+            <!-- Shot Card 3 -->
+            <div class="dribbble-card">
+                <div class="dribbble-img-box">
+                    <img src="static/image/mobi.jpg" alt="Mobile Apps">
+                </div>
+                <div class="dribbble-info">
+                    <h5 class="dribbble-title">Mobile Apps</h5>
+                    <span class="dribbble-tag">App</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer using Flexbox -->
+    <footer class="custom-footer">
+        <p>&copy; 2026 Adiosa. All rights reserved.</p>
+    </footer>
+
+    <!-- FIXED BOOTSTRAP 5 JAVASCRIPT BUNDLE -->
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+     <script src="script.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
