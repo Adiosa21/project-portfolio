@@ -59,5 +59,5 @@ To replace the default grid graphics, swap out the file assets inside `static/im
 ## 👤 Project Owner Profile
 *   **Lead Engineer:**  Adiao Sarah ,Adiosa Production Developer
 *   **Location:** Kampala, Uganda
-*   **GitHub Workspace Profile:**
+*   **GitHub Workspace Profile:**https://github.com/Adiosa21/project-portfolio
 *   **Contact Information:** Reach out directly through the integrated WhatsApp web form embedded on the contact page layout workspace.
